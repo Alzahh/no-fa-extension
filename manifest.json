@@ -1,0 +1,16 @@
+﻿{
+  "name": "NO-FA",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": [
+    "http://*/*"
+  ],
+  "action": {
+    "default_popup" :"popup.html",
+    "default_title": "NO-FA",
+    "default_icon": {
+      "32": "icon.png"
+    }
+  }
+}
